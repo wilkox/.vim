@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/wilkox/.vim'
 let g:netrw_dirhist_2='/home/wilkox/bin/blast-tools/blast_progress_monitor'
 let g:netrw_dirhist_3='/home/wilkox/guided-learning/app/views/problems'
 let g:netrw_dirhist_4='/home/wilkox/guided-learning/spec'
 let g:netrw_dirhist_5='/home/wilkox/guided-learning/spec/views/attempts'
 let g:netrw_dirhist_6='/home/wilkox/guided-learning/app/views/multichoices'
+let g:netrw_dirhist_7='/home/wilkox/SO_manuscript/tables/taxonomic_contribution_to_variance'
+let g:netrw_dirhist_8='/home/wilkox/SO_manuscript/tables/orthologous_genes_contribution_to_variance'
+let g:netrw_dirhist_9='/home/wilkox/.ssh'
