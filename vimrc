@@ -8,6 +8,9 @@ set smartindent
 "recognise .md as .markdown
 au BufNewFile,BufRead *.md set filetype=markdown
 
+"recognise .less as css
+au BufNewFile,BufRead *.less set filetype=css
+
 "auto 2-space indent for ruby
 if has("autocmd")
   augroup ruby
