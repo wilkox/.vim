@@ -8,6 +8,13 @@ set smartindent
 "recognise .md as .markdown
 au BufNewFile,BufRead *.md set filetype=markdown
 
+" set the foldmethod to indent, but folding turned off by default
+set foldmethod=indent 
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+"
+
 "recognise .less as css
 au BufNewFile,BufRead *.less set filetype=css
 
