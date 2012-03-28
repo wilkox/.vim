@@ -1,7 +1,7 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/wilkox/Private/personal/passwords'
-let g:netrw_dirhist_2='/home/wilkox/Private/personal'
-let g:netrw_dirhist_3='/home/wilkox/Private'
-let g:netrw_dirhist_4='/home/wilkox/guided-learning/public/stylesheets'
-let g:netrw_dirhist_5='/home/wilkox/guided-learning/spec/controllers'
+let g:netrw_dirhist_1='/home/wilkox/guided-learning/public/stylesheets'
+let g:netrw_dirhist_2='/home/wilkox/guided-learning/public'
+let g:netrw_dirhist_3='/home/wilkox/guided-learning/app/views/courses'
+let g:netrw_dirhist_4='/home/wilkox/R'
+let g:netrw_dirhist_5='/home/wilkox/.pandoc'
