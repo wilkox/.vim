@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/wilkox/guided-learning/public/stylesheets'
-let g:netrw_dirhist_2='/home/wilkox/guided-learning/public'
-let g:netrw_dirhist_3='/home/wilkox/guided-learning/app/views/courses'
-let g:netrw_dirhist_4='/home/wilkox/R'
-let g:netrw_dirhist_5='/home/wilkox/.pandoc'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/wilkox/Dropbox/thesis/polarfront'
