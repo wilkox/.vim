@@ -56,3 +56,7 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
+" When splitting with sp, allow moving between horizontal panes with Ctrl + J
+" and Ctrl + K rather than Ctrl + W => J/K
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
