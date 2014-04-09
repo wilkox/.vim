@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/wilkox/Dropbox/thesis/polarfront'
-let g:netrw_dirhist_2='/Users/wilkox/Dropbox/thesis/compile'
-let g:netrw_dirhist_3='/Users/wilkox/Dropbox/thesis'
-let g:netrw_dirhist_4='/Users/wilkox/Dropbox/thesis/polarfront'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/wilkox/MTR_project/alpha_diversity'
+let g:netrw_dirhist_2='/Users/wilkox/MTR_project'
+let g:netrw_dirhist_3='/Users/wilkox/tmp'

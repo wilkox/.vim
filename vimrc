@@ -1,5 +1,11 @@
+" use the + register for the OS X clipboard (hopefully)
+set clipboard=unnamedplus
+
+" perl skeleton
+au BufNewFile *.pl 0r ~/.vim/perl.skel
+
 "use pathogen to manage plugins
-  call pathogen#runtime_append_all_bundles()
+call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
   set hlsearch
@@ -33,7 +39,6 @@ call pathogen#helptags()
   syntax enable
   set background=dark
   let g:solarized_termtrans=1
-  "let g:solarized_termcolors=256
   let g:solarized_contrast="high"
   let g:solarized_visibility="high"
   colorscheme solarized
@@ -48,6 +53,10 @@ call pathogen#helptags()
   filetype plugin on
   set ofu=syntaxcomplete#Complete
   let g:SuperTabDefaultCompletionType = "context"
+  "Disable scanning included files
+  "Gets really annoying when it tries to scan through included Perl
+  " modules
+  set complete-=i
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -55,8 +64,3 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal g'\"" | endif
 endif
-
-" When splitting with sp, allow moving between horizontal panes with Ctrl + J
-" and Ctrl + K rather than Ctrl + W => J/K
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
