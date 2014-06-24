@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/wilkox/MTR_project/alpha_diversity'
-let g:netrw_dirhist_2='/Users/wilkox/MTR_project'
-let g:netrw_dirhist_3='/Users/wilkox/tmp'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/wilkox/demo_repo_for_relies/.git/hooks'
+let g:netrw_dirhist_2='/Users/wilkox/bin'
+let g:netrw_dirhist_3='/Users/wilkox/digester_project/manuscript/supplementary_figures'
+let g:netrw_dirhist_4='/Users/wilkox/zeroclickinfo-goodies/lib/DDG/Goodie'
+let g:netrw_dirhist_5='/Users/wilkox/zeroclickinfo-spice/share/spice/etymology'
+let g:netrw_dirhist_6='/Users/wilkox/tmp'
+let g:netrw_dirhist_7='/Users/wilkox/zeroclickinfo-fathead/share/bible'
+let g:netrw_dirhist_8='/Users/wilkox/plural_fathead/share/plural/download'

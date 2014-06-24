@@ -1,8 +1,14 @@
-" use the + register for the OS X clipboard (hopefully)
-set clipboard=unnamedplus
+" Vim-orgmode
+filetype plugin indent on
+
+" use the + register for the OS X clipboard
+runtime bundle/vim-fakeclip/autoload/fakeclip.vim
 
 " perl skeleton
 au BufNewFile *.pl 0r ~/.vim/perl.skel
+
+" Jump to search results as I type
+set incsearch
 
 "use pathogen to manage plugins
 call pathogen#runtime_append_all_bundles()
@@ -64,3 +70,16 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal g'\"" | endif
 endif
+
+" Lines added by the Vim-R-plugin command :RpluginConfig (2014-Apr-10 17:36):
+syntax on
+
+" Force Vim to use 256 colors if running in a capable terminal emulator:
+if &term =~ "xterm" || &term =~ "256" || $DISPLAY != "" || $HAS_256_COLORS == "yes"
+    set t_Co=256
+endif
+
+" Automatically fold perl subs
+set foldmethod=syntax
+set foldlevelstart=1
+let perl_fold=1
